@@ -1,0 +1,165 @@
+/*body*/
+.body{
+    margin: auto;
+    padding: 0 10px;
+    width: 95%;
+    background-color: white;
+}
+
+    /*banner*/
+.body .banner{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: slide 30s step-end infinite;
+
+    position: absolute;
+}
+.body .banner .slide-wrapper > div{
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+}
+
+    /*block skew*/
+.body .banner .block{
+    transform: skewX(30deg);
+    position: absolute;
+}
+.one{
+    width: 50%;
+    height: 200px;
+    background: linear-gradient(rgb(255, 129, 202),rgb(126, 3, 184));
+    left: -24%;
+    bottom: 0;
+    z-index: 1;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    left: 25%;
+    bottom: 0;
+}
+    /*banner text*/
+.body .banner .slide-wrapper > div > a:last-child{
+    width: 20%;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    z-index: 2;
+}
+
+    /*main banner*/
+/*1*/
+.body .banner .slide-wrapper #first > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Chào\ mừng\ tân\ sinh\ viên\ K15.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*2*/
+.body .banner .slide-wrapper #second > a:first-child{
+    width: 100%;
+    height: 100%;
+
+    background: url('../image/Cuộc\ Thi\ Olympic\ Tin\ học.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*3*/
+.body .banner .slide-wrapper #thirt > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Cuộc\ thi\ Tiktok\ with\ ITC.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+} 
+/*4*/
+.body .banner .slide-wrapper #four > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Công\ trình\ \'Tranh\ tường\ bích\ họa\'.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*5*/
+.body .banner .slide-wrapper #five > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Hỗ\ trợ\ Seagame.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*6*/
+.body .banner .slide-wrapper #six > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Lập\ trình\ C++.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*7*/
+.body .banner .slide-wrapper #seven > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Tuyển\ thành\ viên\ sutdy\ design.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*8*/
+.body .banner .slide-wrapper #eight > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Lập\ trình\ web.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*9*/
+.body .banner .slide-wrapper #night > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Tuyển\ thành\ viên\ đội\ ITVT.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+/*10*/
+.body .banner .slide-wrapper #ten > a:first-child{
+    width: 100%;
+    height: 100%;
+    
+    background: url('../image/Chào\ mừng\ tân\ sinh\ viên\ K15.jpg') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+
+@keyframes slide {
+    0% {top: 0;}        7%{top: 0;}
+    11%{top: -500px;}   18%{top: -500px;}  
+    22%{top: -1000px;}  29%{top: -1000px;}
+    33%{top: -1500px;}  40%{top: -1500px;}
+    44%{top: -2000px;}  51%{top: -2000px;}
+    55%{top: -2500px;}  62%{top: -2500px;}
+    66%{top: -3000px;}  73%{top: -3000px;}
+    77%{top: -3500px;}  84%{top: -3500px;}
+    88%{top: -4000px;}  95%{top: -4000px;}
+    99%{top: -4500px;}
+}
